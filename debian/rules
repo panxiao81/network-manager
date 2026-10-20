@@ -58,7 +58,7 @@ override_dh_auto_configure:
 		-Dqt=false \
 		-Debpf=false \
 		-Dnbft=false \
-		-Dofono=true
+		-Dofono=false
 
 execute_after_dh_auto_install:
 	# Those initrd specific services are not actually used by dracut and
